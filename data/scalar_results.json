@@ -1,0 +1,54 @@
+{
+  "Scene 1 (target=red_square, unique=red)": {
+    "second_person": {
+      "red": 25
+    },
+    "first_person": {
+      "red": 23,
+      "square": 2
+    },
+    "third_person": {
+      "red": 25
+    }
+  },
+  "Scene 2 (target=blue_circle, unique=circle)": {
+    "second_person": {
+      "circle": 23,
+      "blue": 2
+    },
+    "first_person": {
+      "circle": 25
+    },
+    "third_person": {
+      "circle": 25
+    }
+  },
+  "Scene 3 (two-object, target=red_square, unique=red)": {
+    "second_person": {
+      "red": 25
+    },
+    "first_person": {
+      "red": 23,
+      "square": 1,
+      "blue": 1
+    },
+    "third_person": {
+      "red": 24,
+      "square": 1
+    }
+  },
+  "Scene 4 (target=blue_square, skewed prior)": {
+    "second_person": {
+      "blue": 23,
+      "square": 2
+    },
+    "first_person": {
+      "blue": 20,
+      "square": 5
+    },
+    "third_person": {
+      "blue": 22,
+      "square": 3
+    }
+  }
+}

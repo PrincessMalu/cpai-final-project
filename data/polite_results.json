@@ -1,0 +1,71 @@
+{
+  "state_1": {
+    "second_person": {
+      "It's not bad": 23,
+      "It's okay": 1,
+      "It's not terrible": 1
+    },
+    "first_person": {
+      "It's not good": 24,
+      "It's not terrible": 1
+    },
+    "third_person": {
+      "It's not good": 19,
+      "It's not terrible": 3,
+      "It's okay": 1,
+      "It's not bad": 2
+    }
+  },
+  "state_2": {
+    "second_person": {
+      "It's okay": 18,
+      "It's not bad": 7
+    },
+    "first_person": {
+      "It's not good": 16,
+      "It's not bad": 7,
+      "It's not terrible": 1,
+      "It's okay": 1
+    },
+    "third_person": {
+      "It's not bad": 18,
+      "It's okay": 6,
+      "It's not terrible": 1
+    }
+  },
+  "state_3": {
+    "second_person": {
+      "It's okay": 23,
+      "It's not bad": 2
+    },
+    "first_person": {
+      "It's okay": 25
+    },
+    "third_person": {
+      "It's okay": 25
+    }
+  },
+  "state_4": {
+    "second_person": {
+      "It's good": 25
+    },
+    "first_person": {
+      "It's good": 25
+    },
+    "third_person": {
+      "It's good": 25
+    }
+  },
+  "state_5": {
+    "second_person": {
+      "It's amazing": 25
+    },
+    "first_person": {
+      "It's amazing": 25
+    },
+    "third_person": {
+      "It's amazing": 21,
+      "It's good": 4
+    }
+  }
+}
