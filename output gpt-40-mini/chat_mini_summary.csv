@@ -1,0 +1,9 @@
+,,js_divergence,js_divergence,js_distance,js_distance,kl_rsa_llm,kl_rsa_llm,kl_llm_rsa,kl_llm_rsa,spearman_rho,spearman_rho
+,,mean,std,mean,std,mean,std,mean,std,mean,std
+phenomenon,framing,,,,,,,,,,
+polite_speech,first_person,0.2745,0.1647,0.5033,0.1625,11.8357,5.8265,1.0283,0.7769,0.4415,0.1855
+polite_speech,second_person,0.2551,0.2115,0.4717,0.2017,10.0667,6.9691,1.4297,1.9273,0.408,0.3267
+polite_speech,third_person,0.2436,0.1613,0.4728,0.1583,6.3042,2.6327,1.476,1.6423,0.4213,0.3338
+scalar_implicature,first_person,0.1532,0.0417,0.3889,0.0504,7.984,1.8905,0.4774,0.1438,0.7691,0.1299
+scalar_implicature,second_person,0.1162,0.0322,0.3378,0.0517,5.3567,3.3642,0.3675,0.076,0.8604,0.0597
+scalar_implicature,third_person,0.1532,0.0417,0.3889,0.0504,7.984,1.8905,0.4774,0.1438,0.7691,0.1299
