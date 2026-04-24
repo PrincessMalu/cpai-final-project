@@ -1,0 +1,28 @@
+phenomenon,condition,framing,js_divergence,js_distance,kl_rsa_llm,kl_llm_rsa,spearman_rho,spearman_p
+scalar_implicature,"Scene 1 (target=red_square, unique=red)",second_person,0.1323,0.3637,7.0388,0.4055,0.8165,0.1835
+scalar_implicature,"Scene 1 (target=red_square, unique=red)",first_person,0.1323,0.3637,7.0388,0.4055,0.8165,0.1835
+scalar_implicature,"Scene 1 (target=red_square, unique=red)",third_person,0.1323,0.3637,7.0388,0.4055,0.8165,0.1835
+scalar_implicature,"Scene 2 (target=blue_circle, unique=circle)",second_person,0.1323,0.3637,7.0388,0.4055,0.8165,0.1835
+scalar_implicature,"Scene 2 (target=blue_circle, unique=circle)",first_person,0.1323,0.3637,7.0388,0.4055,0.8165,0.1835
+scalar_implicature,"Scene 2 (target=blue_circle, unique=circle)",third_person,0.1323,0.3637,7.0388,0.4055,0.8165,0.1835
+scalar_implicature,"Scene 3 (two-object, target=red_square, unique=red)",second_person,0.1323,0.3637,7.0388,0.4055,0.866,0.3333
+scalar_implicature,"Scene 3 (two-object, target=red_square, unique=red)",first_person,0.1323,0.3637,7.0388,0.4055,0.866,0.3333
+scalar_implicature,"Scene 3 (two-object, target=red_square, unique=red)",third_person,0.1323,0.3637,7.0388,0.4055,0.866,0.3333
+scalar_implicature,"Scene 4 (target=blue_square, skewed prior)",second_person,0.0368,0.1919,0.1576,0.1421,0.9428,0.0572
+scalar_implicature,"Scene 4 (target=blue_square, skewed prior)",first_person,0.1527,0.3908,0.9367,0.5252,0.9428,0.0572
+scalar_implicature,"Scene 4 (target=blue_square, skewed prior)",third_person,0.2158,0.4645,10.8198,0.6931,0.5774,0.4226
+polite_speech,state_1,second_person,0.3797,0.6162,15.1716,1.6864,0.1333,0.753
+polite_speech,state_1,first_person,0.2568,0.5068,10.0393,0.9284,0.343,0.4055
+polite_speech,state_1,third_person,0.3209,0.5665,10.1733,1.954,0.0319,0.9402
+polite_speech,state_2,second_person,0.4854,0.6967,5.2303,4.005,0.2881,0.4889
+polite_speech,state_2,first_person,0.5092,0.7136,19.3121,2.4172,0.1333,0.753
+polite_speech,state_2,third_person,0.5711,0.7557,19.4532,4.5908,-0.0078,0.9853
+polite_speech,state_3,second_person,0.1065,0.3264,3.3874,0.3705,0.7527,0.0312
+polite_speech,state_3,first_person,0.2629,0.5127,12.2587,0.8709,0.4978,0.2093
+polite_speech,state_3,third_person,0.1421,0.377,3.5613,0.5039,0.7527,0.0312
+polite_speech,state_4,second_person,0.1566,0.3957,7.7989,0.4861,0.5808,0.1311
+polite_speech,state_4,first_person,0.1566,0.3957,7.7989,0.4861,0.5808,0.1311
+polite_speech,state_4,third_person,0.1566,0.3957,7.7989,0.4861,0.5808,0.1311
+polite_speech,state_5,second_person,0.0891,0.2985,4.6107,0.2673,0.5808,0.1311
+polite_speech,state_5,first_person,0.0891,0.2985,4.6107,0.2673,0.5808,0.1311
+polite_speech,state_5,third_person,0.0891,0.2985,4.6107,0.2673,0.5808,0.1311
