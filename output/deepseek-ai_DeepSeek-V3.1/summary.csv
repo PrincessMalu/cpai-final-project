@@ -1,0 +1,9 @@
+,,,js_divergence,js_divergence,js_ci_low,js_ci_low,js_ci_high,js_ci_high,js_distance,js_distance,kl_rsa_llm,kl_rsa_llm,kl_llm_rsa,kl_llm_rsa,spearman_rho,spearman_rho
+,,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,phenomenon,framing,,,,,,,,,,,,,,
+deepseek-ai/DeepSeek-V3.1,polite_speech,first_person,0.2655,0.1713,0.2499,0.1746,0.2846,0.1752,0.4932,0.1668,10.1832,6.7779,1.0813,0.8873,0.4032,0.3343
+deepseek-ai/DeepSeek-V3.1,polite_speech,second_person,0.351,0.2936,0.3384,0.3037,0.3724,0.2847,0.5483,0.2509,11.8865,9.049,2.3358,2.6099,0.1207,0.7202
+deepseek-ai/DeepSeek-V3.1,polite_speech,third_person,0.2299,0.1737,0.1998,0.1579,0.2916,0.2028,0.4427,0.2059,6.9656,6.3827,1.2785,1.5389,0.5014,0.3542
+deepseek-ai/DeepSeek-V3.1,scalar_implicature,first_person,0.0476,0.0237,0.0119,0.0152,0.1215,0.0216,0.2131,0.0534,0.247,0.1581,0.1673,0.0739,0.9857,0.0286
+deepseek-ai/DeepSeek-V3.1,scalar_implicature,second_person,0.1532,0.0417,0.1532,0.0417,0.1532,0.0417,0.3889,0.0504,7.984,1.8905,0.4774,0.1438,0.7691,0.1299
+deepseek-ai/DeepSeek-V3.1,scalar_implicature,third_person,0.0951,0.0463,0.0758,0.0663,0.1283,0.0081,0.3002,0.082,3.6747,3.8865,0.3046,0.1269,0.9063,0.0812

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "model": "deepseek-ai/DeepSeek-V3.1",
+    "provider": "tinker",
+    "n_samples": 25,
+    "temperature": 1.0
+  },
+  "results": {
+    "Scene 1 (target=red_square, unique=red)": {
+      "second_person": {
+        "red": 25
+      },
+      "first_person": {
+        "red": 22,
+        "square": 3
+      },
+      "third_person": {
+        "red": 25
+      }
+    },
+    "Scene 2 (target=blue_circle, unique=circle)": {
+      "second_person": {
+        "circle": 25
+      },
+      "first_person": {
+        "circle": 24,
+        "blue": 1
+      },
+      "third_person": {
+        "circle": 24,
+        "blue": 1
+      }
+    },
+    "Scene 3 (two-object, target=red_square, unique=red)": {
+      "second_person": {
+        "red": 25
+      },
+      "first_person": {
+        "red": 23,
+        "square": 2
+      },
+      "third_person": {
+        "red": 25
+      }
+    },
+    "Scene 4 (target=blue_square, skewed prior)": {
+      "second_person": {
+        "blue": 25
+      },
+      "first_person": {
+        "blue": 18,
+        "square": 7
+      },
+      "third_person": {
+        "square": 6,
+        "blue": 19
+      }
+    }
+  }
+}

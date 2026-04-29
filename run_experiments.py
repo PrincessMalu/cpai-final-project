@@ -1,12 +1,12 @@
 """
 Tinker API Experiment Runner
-Collects utterance distributions from DeepSeek-V3.1 (via Tinker API) under three prompt framings:
+Collects utterance distributions from LLM's (via API) under three prompt framings:
   - second_person: direct production ("You are the speaker…")
   - first_person:  assistant framing ("You are a helpful assistant…")
   - third_person:  meta-pragmatic judge ("A speaker must choose…")
 
 For both phenomena:
-  1. Scalar Implicature (Frank & Goodman, 2012)
+  1. Scalar Implicature (Frank & Goodman, 2016)
   2. Polite Speech (Yoon et al., 2020)
 
 Usage:
@@ -35,6 +35,9 @@ if not TINKER_API_KEY:
 
 TINKER_BASE_URL = "https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1"
 TINKER_MODEL    = "deepseek-ai/DeepSeek-V3.1"
+
+"meta-llama/Llama-3.1-70B"
+"meta-llama/Llama-3.1-8B"
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -122,7 +125,7 @@ def format_utterance_list(utterances):
     return "\n".join(f"  - {u}" for u in utterances)
 
 def query_model(client, prompt, model=TINKER_MODEL, temperature=1.0, max_retries=3):
-    """Single query to DeepSeek via Tinker API. Returns stripped response string."""
+    """Single query to LLM Model via Tinker API. Returns stripped response string."""
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(

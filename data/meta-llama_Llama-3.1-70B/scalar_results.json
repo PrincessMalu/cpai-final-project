@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "model": "meta-llama/Llama-3.1-70B",
+    "provider": "tinker",
+    "n_samples": 25,
+    "temperature": 1.0
+  },
+  "results": {
+    "Scene 1 (target=red_square, unique=red)": {
+      "second_person": {
+        "red": 24,
+        "square": 1
+      },
+      "first_person": {
+        "red": 24,
+        "blue": 1
+      },
+      "third_person": {
+        "red": 25
+      }
+    },
+    "Scene 2 (target=blue_circle, unique=circle)": {
+      "second_person": {
+        "circle": 24,
+        "blue": 1
+      },
+      "first_person": {
+        "circle": 24,
+        "blue": 1
+      },
+      "third_person": {
+        "circle": 25
+      }
+    },
+    "Scene 3 (two-object, target=red_square, unique=red)": {
+      "second_person": {
+        "red": 25
+      },
+      "first_person": {
+        "red": 25
+      },
+      "third_person": {
+        "red": 25
+      }
+    },
+    "Scene 4 (target=blue_square, skewed prior)": {
+      "second_person": {
+        "blue": 24,
+        "square": 1
+      },
+      "first_person": {
+        "square": 5,
+        "blue": 19,
+        "circle": 1
+      },
+      "third_person": {
+        "blue": 21,
+        "square": 4
+      }
+    }
+  }
+}

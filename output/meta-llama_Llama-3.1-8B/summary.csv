@@ -1,0 +1,9 @@
+,,,js_divergence,js_divergence,js_ci_low,js_ci_low,js_ci_high,js_ci_high,js_distance,js_distance,kl_rsa_llm,kl_rsa_llm,kl_llm_rsa,kl_llm_rsa,spearman_rho,spearman_rho
+,,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,phenomenon,framing,,,,,,,,,,,,,,
+meta-llama/Llama-3.1-8B,polite_speech,first_person,0.2572,0.1747,0.2428,0.1807,0.2807,0.1731,0.4839,0.1695,10.1254,6.8387,1.0385,0.9206,0.4032,0.3343
+meta-llama/Llama-3.1-8B,polite_speech,second_person,0.3577,0.2883,0.3455,0.2972,0.371,0.2828,0.5562,0.2457,11.9406,8.9876,2.3292,2.5539,0.1261,0.7116
+meta-llama/Llama-3.1-8B,polite_speech,third_person,0.2815,0.172,0.234,0.1572,0.3643,0.1987,0.5057,0.1795,7.1902,6.2306,1.6671,1.6667,0.4059,0.4233
+meta-llama/Llama-3.1-8B,scalar_implicature,first_person,0.0503,0.0277,0.0131,0.0155,0.1241,0.0315,0.217,0.0648,0.255,0.1669,0.1793,0.0944,0.9857,0.0286
+meta-llama/Llama-3.1-8B,scalar_implicature,second_person,0.1399,0.0565,0.1285,0.0746,0.1532,0.0417,0.3683,0.075,6.3403,4.3041,0.4423,0.1798,0.815,0.1763
+meta-llama/Llama-3.1-8B,scalar_implicature,third_person,0.1084,0.0479,0.0997,0.0652,0.1262,0.0122,0.3205,0.0864,5.3132,3.4513,0.5088,0.2066,0.8484,0.0386

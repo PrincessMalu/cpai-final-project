@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "model": "deepseek-ai/DeepSeek-V3.1",
+    "provider": "tinker",
+    "n_samples": 25,
+    "temperature": 1.0
+  },
+  "results": {
+    "scalar_implicature": {
+      "Scene 1 (target=red_square, unique=red)": {
+        "second_person": {
+          "red": 25
+        },
+        "first_person": {
+          "red": 22,
+          "square": 3
+        },
+        "third_person": {
+          "red": 25
+        }
+      },
+      "Scene 2 (target=blue_circle, unique=circle)": {
+        "second_person": {
+          "circle": 25
+        },
+        "first_person": {
+          "circle": 24,
+          "blue": 1
+        },
+        "third_person": {
+          "circle": 24,
+          "blue": 1
+        }
+      },
+      "Scene 3 (two-object, target=red_square, unique=red)": {
+        "second_person": {
+          "red": 25
+        },
+        "first_person": {
+          "red": 23,
+          "square": 2
+        },
+        "third_person": {
+          "red": 25
+        }
+      },
+      "Scene 4 (target=blue_square, skewed prior)": {
+        "second_person": {
+          "blue": 25
+        },
+        "first_person": {
+          "blue": 18,
+          "square": 7
+        },
+        "third_person": {
+          "square": 6,
+          "blue": 19
+        }
+      }
+    },
+    "polite_speech": {
+      "state_1": {
+        "second_person": {
+          "It's not bad": 19,
+          "It's okay": 3,
+          "It's not terrible": 3
+        },
+        "first_person": {
+          "It's not good": 22,
+          "It's not terrible": 3
+        },
+        "third_person": {
+          "It's not good": 25
+        }
+      },
+      "state_2": {
+        "second_person": {
+          "It's okay": 21,
+          "It's not bad": 4
+        },
+        "first_person": {
+          "It's not good": 20,
+          "It's not bad": 5
+        },
+        "third_person": {
+          "It's not terrible": 4,
+          "It's not bad": 13,
+          "It's okay": 7,
+          "It's not good": 1
+        }
+      },
+      "state_3": {
+        "second_person": {
+          "It's okay": 23,
+          "It's not bad": 2
+        },
+        "first_person": {
+          "It's okay": 24,
+          "It's not bad": 1
+        },
+        "third_person": {
+          "It's okay": 25
+        }
+      },
+      "state_4": {
+        "second_person": {
+          "It's good": 25
+        },
+        "first_person": {
+          "It's good": 25
+        },
+        "third_person": {
+          "It's not bad": 2,
+          "It's good": 22,
+          "It's okay": 1
+        }
+      },
+      "state_5": {
+        "second_person": {
+          "It's amazing": 25
+        },
+        "first_person": {
+          "It's amazing": 25
+        },
+        "third_person": {
+          "It's amazing": 18,
+          "It's good": 7
+        }
+      }
+    }
+  }
+}
